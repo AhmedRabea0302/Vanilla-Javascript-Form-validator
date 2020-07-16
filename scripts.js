@@ -47,7 +47,6 @@ function getFieldName(input) {
 
 // Check Length 
 function checkLength(input, min, max) {
-        console.log(input.value.length);
         if(input.value.length < min) {
             showError(input, `${getFieldName(input)} Must Be at Least ${min} Charachters`);
         } else if(input.value.length > max) {
